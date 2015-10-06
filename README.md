@@ -9,9 +9,9 @@ them thoroughly so he could prioritize them. He showed me a document he
 created in Excel that could detect word frequency if a text were loaded
 in. I thought this was kind of a clunky solution so I developed this
 (with some help from users at StackOverflow: http://bit.ly/1JQJTbe).
-This script create a function that will automatically read any .txt
+This script creates a function that will automatically read any .txt
 file in the working directory and turn it into a Word Cloud. Simply run
 the function passing the name of your file without its extension as an
-argument (this is mislabelled in the script notes itself). In the
+argument (file must be in your working directory). In the
 future I’m looking to build in support for .pdfs, but for now just as a
 demonstration of concept I thought this was kinda neat. Enjoy!
