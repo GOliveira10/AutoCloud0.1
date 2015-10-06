@@ -5,7 +5,7 @@ library(tau)
 library(tm)
 library(wordcloud)
 ## run this function and write the name of the file in your working directory 
-## (with its extension!) in quotations between the parentheses
+## (without its extension!) in quotations between the parentheses
 
 wordCloud <- function(x){
         fileName <- paste("./", x , sep="")
